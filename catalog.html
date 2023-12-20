@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/catalog_styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html"><img src="static/img/logo.svg" alt="" class="logo"></a>
+            <div class="buttons">
+                <a href="catalog.html"><img src="static/img/catalog.svg" alt="" class="button"></a>
+                <a href="cart.html"><img src="static/img/card.svg" alt="" class="button"></a>
+                <a href="signInUp.html"><img src="static/img/lk.svg" alt="" class="button"></a>
+            </div>
+        </nav>
+    </div>
+    <header style="background-image: url(static/img/background.png); display: flex; flex-direction: column; background-size: 100vw;">
+        <div class = 'container'>
+            <div class="header_content">
+                <p style="margin-bottom: 3vw;">Хиты продаж</p>
+                <!--СЛАЙДЕР-->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/Rectangle 16.png" class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Зеленый</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                            <p class="new" style="color: #86C383;">299</p>
+                                            <p style="color: white;">₽</p>  
+                                            </div>
+                                            <p class="old"><span style="color: white;">400</span></p> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/cgo0wgao5__big 1.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Шу Пуэр</p>  
+                                        <div class="price">
+                                            <div class="slide_price">
+                                            <p class="new" style="color: #86C383;">499</p>
+                                            <p style="color: white;">₽</p>   
+                                            </div>
+                                            <p class="old"><span style="color: white;">600</span></p> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/Rectangle 20.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Бархатный</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                                <p class="new" style="color: #86C383;">399</p>
+                                                <p style="color: white;">₽</p>
+                                            </div> 
+                                            <p class="old"><span style="color: white;">500</span></p>
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/milk_oolong.png" class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Молочный Улун</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                            <p class="new" style="color: #86C383;">435</p>
+                                            <p style="color: white;">₽</p>  
+                                            </div>
+                                            <p class="old"><span style="color: white;">700</span></p> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/Lun_czhin.png" class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Лун Цзин</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                            <p class="new" style="color: #86C383;">920</p>
+                                            <p style="color: white;">₽</p>  
+                                            </div>
+                                            <p class="old"><span style="color: white;">1200</span></p> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/Ivan-chai.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Иван-Чай</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                                <p class="new" style="color: #86C383;">299</p>
+                                                <p style="color: white;">₽</p>
+                                            </div> 
+                                            <p class="old"><span style="color: white;">500</span></p>
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/troe_v_lodke.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Трое в Лодке</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                                <p class="new" style="color: #86C383;">325</p>
+                                                <p style="color: white;">₽</p>
+                                            </div> 
+                                            <p class="old"><span style="color: white;">650</span></p>
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/Zemlyanich.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Земляничный Лед</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price" style="margin-right: 1vw;">
+                                                <p class="new" style="color: #86C383;">440</p>
+                                                <p style="color: white;">₽</p>
+                                            </div> 
+                                            <p class="old"><span style="color: white;">730</span></p>
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="item.html">
+                                <div class="kartochka_slider"> 
+                                    <img src="static/img/vitamin.png"  class="sliderslide_img" alt=""> 
+                                    <div class="pupa"> 
+                                        <p class="Zalupa">Витаминный</p>  
+                                        <div class="price"> 
+                                            <div class="slide_price">
+                                                <p class="new" style="color: #86C383;">395</p>
+                                                <p style="color: white;">₽</p>
+                                            </div> 
+                                            <p class="old"><span style="color: white;">500</span></p>
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+        <div class="underlogo_text">
+            
+        </div>
+        <div class="text2">
+        </div>
+        
+       
+    </header>
+    <div class="container_slider">
+        <div class="bestsellers">
+            <hr class="besthr">
+            Каталог
+            <hr class="besthr">
+        </div>
+    </div>
+    
+    <div class="container">
+        <main>
+
+            <div class="sorting">
+                <div class="sorting_category">
+                    <p>Вид</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Цена</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Вкус</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Страна/регион</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Провинция</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Плантация</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Ингредиенты</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="sorting_category">
+                    <p>Основные ноты</p>
+                    <img src="static/img/galochka.svg" alt="" class="listbtn">
+                </div>
+                <div class="filter_buttons">
+                    <button class="show">Показать</button>
+                    <button class="reset">Сбросить фильтры</button>
+                </div>
+            </div>
+            <div class="katalogg">
+                <div class="filter">
+                    <p>Сортировка:</p>
+                    <div class="filter_object">
+                        <p>популярность</p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="filter_object">
+                        <p>рейтинг</p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="filter_object">
+                        <p>цена</p>
+                        <img src="" alt="">
+                    </div>
+                    
+                </div>
+                <div class="cards">
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                    <div class="reyting">
+                        <a href="item.html">
+                            <div class="kartochka"> 
+                                <img src="static/img/Rectangle 16.png" class="slider_img" alt=""> 
+                                <div class="pupa"> 
+                                    <p class="Zalupa" style="margin-right: 1vw;">Зеленый</p>  
+                                    <div class="price"> 
+                                        <div class="slide_price">
+                                        <p class="new" style="color: #86C383;">299</p>
+                                        <p style="color: white;">₽</p>  
+                                        </div>
+                                        <p class="old_cat"><span style="color: white;">400</span></p> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </a>
+                        <div class="reviews">
+                            <table>
+                                <tr>
+                                    <td><img src="static/img/list.svg" class="markimg" alt=""></td>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                    <th><img src="static/img/list.svg" class="markimg" alt=""></th>
+                                </tr>    
+                            </table>
+                            <p>256 отзывов</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="show_more">Показать ещё</button>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footer_content_1">
+            <div class="footer_content_again">
+                <a href="index.html"><img src="static/img/big_logo_1.svg" class="footerlogo" alt=""></a>
+                <p class="cont">Контакты</p>
+            </div>
+            
+            <div class="footer_content_again">
+                <a href="delivery.html" class="footer_link">Доставка</a>
+                <div class="contacts">
+                    <p>+7 (987) 654-32-10</p>
+                    <img src="static/img/mdi_leaf.svg" class="leaf" alt="">
+                    <p>chainikoff@gmail.com</p>
+                </div>    
+            </div>
+            <div class="footer_content_again" style="margin-bottom:0.5vw ;">
+                <a href="payment.html" class="footer_link">Оплата</a>
+                <p class="adress">г. Владимир, ул. Университетская, д. 4</p>
+            </div>
+            <div class="footer_content_again">
+                <a href="about_us.html" class="footer_link">О нас</a>
+                <div class="footerlinks">
+                    <a href=""><img src="static/img/simple-line-icons_social-vkontakte.svg" alt="" class="footerimg"></a>
+                    <a href=""><img src="static/img/la_telegram-plane.svg" alt="" class="footerimg"></a>
+                    <a href=""><img src="static/img/mdi_youtube.svg" alt="" class="footerimg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
